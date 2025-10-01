@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NextBillionTurf"
-  spec.version      = "3.0.0"
+  spec.version      = "3.0.1"
   spec.summary      = "The nextbillion.ai iOS  Turf cocoapods repo"
 
   spec.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = {
     :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios.git",
-    :branch => 'release/3.0.0'
+    :tag => '3.0.1'
   }
 
   spec.vendored_frameworks = 'NBTurf.xcframework'
