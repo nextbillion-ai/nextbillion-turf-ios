@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NextBillionTurf"
-  spec.version      = "2.0.0"
+  spec.version      = "3.0.0"
   spec.summary      = "The nextbillion.ai iOS  Turf cocoapods repo"
 
   spec.description  = <<-DESC
@@ -22,10 +22,13 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Nextbillion.AI" => "" }
 
-  spec.source       = { :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios.git" }
+  spec.source       = {
+    :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios.git",
+    :branch => 'release/3.0.0'
+  }
 
-  spec.vendored_frameworks = 'Turf.xcframework'
-  spec.platform     = :ios, '11.0'
+  spec.vendored_frameworks = 'NBTurf.xcframework'
+  spec.platform     = :ios, '12.0'
   spec.swift_version = '5.0'
 
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
