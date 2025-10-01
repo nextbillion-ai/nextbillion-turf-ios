@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/nextbillion-ai/nextbillion-turf-ios.git" }
 
   spec.vendored_frameworks = 'Turf.xcframework'
-  spec.platform     = :ios, '11.0'
+  spec.platform     = :ios, '12.0'
   spec.swift_version = '5.0'
 
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
